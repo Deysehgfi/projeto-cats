@@ -48,8 +48,6 @@ main{
    
    padding: 60px;
    text-align: center;
-
-   
 }
 
 
@@ -82,6 +80,13 @@ border: 2px;
 
 }
 
+
+@media screen and (max-width:1346) {
+    .img-1{}
+    
+}
+
+/* footer-------------------------------------------------------------------------------------------------------------------------------------------- */
 footer{
     background-color: var(---orange);
     height: 80px;
