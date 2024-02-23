@@ -5,6 +5,7 @@
 body{
     margin: 0;
     padding: 0;
+   
 }
 
 header{
@@ -14,16 +15,17 @@ header{
 
 }
 
-nav ul {
+nav{
     display: flex;
    align-items: center;
+   margin: 0;
+   padding: 0;
+   justify-content: space-around;
+}
 
-}
-ul{
-    margin: 0;
-    padding: 0;
-    justify-content: space-around;
-}
+.nav-bar{
+    display: inline;
+} 
 
 .logo{
 
@@ -32,27 +34,25 @@ height: 80px;
 
 }
 
-li{
-    list-style: none;
-    padding: 16px;
-    
-}
-
-
-li a{
+ a{
     color: var(---black);
     text-decoration: none;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-right: 10px 10px; 
-    text-align: end;
+    padding: 16px;
 }
+
 
 /* corpo------------------------------------------------------ */
 main{
-    border: #000 solid 5px;
-    padding: 50px;
+   
+   padding: 60px;
+   text-align: center;
+
+   
 }
+
+
 
 .img-1{
     width: 400px;
@@ -60,6 +60,8 @@ main{
     top: 160px;
     left: 920px;
     border: 2px;
+  
+   
 }    
 
 .img-2{
@@ -91,6 +93,7 @@ footer{
 footer h3 {
     color: var(---black);
     font-size: 16px;
+    text-align: center; padding: 5px;
 
 
 }
